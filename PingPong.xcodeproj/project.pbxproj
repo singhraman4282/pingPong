@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37687A7CCEA555D6F3DC7BA0 /* Pods_PingPong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD61B17F3E3DD0D88CA1DD2 /* Pods_PingPong.framework */; };
+		45229805A42452FD6A96DF87 /* Pods_PingPongUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8443AB7EA8523F355CAF236 /* Pods_PingPongUITests.framework */; };
+		E4694B3F44A5E8ADAFAA0BFC /* Pods_PingPongTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5BD742114514082A2B0CE2 /* Pods_PingPongTests.framework */; };
+		F1E2D11020BCAAE800FC7FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2D10F20BCAAE800FC7FBC /* AppDelegate.swift */; };
+		F1E2D11220BCAAE800FC7FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2D11120BCAAE800FC7FBC /* ViewController.swift */; };
+		F1E2D11520BCAAE800FC7FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E2D11320BCAAE800FC7FBC /* Main.storyboard */; };
+		F1E2D11720BCAAEA00FC7FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2D11620BCAAEA00FC7FBC /* Assets.xcassets */; };
+		F1E2D11A20BCAAEA00FC7FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E2D11820BCAAEA00FC7FBC /* LaunchScreen.storyboard */; };
+		F1E2D12520BCAAEA00FC7FBC /* PingPongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2D12420BCAAEA00FC7FBC /* PingPongTests.swift */; };
+		F1E2D13020BCAAEA00FC7FBC /* PingPongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2D12F20BCAAEA00FC7FBC /* PingPongUITests.swift */; };
+		F1E2D14420BCEA7100FC7FBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E2D14320BCEA7100FC7FBC /* GoogleService-Info.plist */; };
+		F1E2D14620BD793D00FC7FBC /* example.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2D14520BD793D00FC7FBC /* example.scnassets */; };
+		F1E2D14C20BDA7BD00FC7FBC /* customAssets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E2D14B20BDA7BD00FC7FBC /* customAssets.scnassets */; };
+		F1E2D14E20BDC8D200FC7FBC /* GARSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2D14D20BDC8D200FC7FBC /* GARSessionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1E2D12120BCAAEA00FC7FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E2D10420BCAAE800FC7FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E2D10B20BCAAE800FC7FBC;
+			remoteInfo = PingPong;
+		};
+		F1E2D12C20BCAAEA00FC7FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E2D10420BCAAE800FC7FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E2D10B20BCAAE800FC7FBC;
+			remoteInfo = PingPong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F5BD742114514082A2B0CE2 /* Pods_PingPongTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingPongTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6D939550B3CBDF87A6CBC1 /* Pods-PingPongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongUITests/Pods-PingPongUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F735C7A25A1D0B4F721CB70 /* Pods-PingPong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingPong/Pods-PingPong.debug.xcconfig"; sourceTree = "<group>"; };
+		9DDB5DA24CB5F706521AF497 /* Pods-PingPongTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongTests/Pods-PingPongTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A1FF867D56B60A593799F1 /* Pods-PingPong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPong.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingPong/Pods-PingPong.release.xcconfig"; sourceTree = "<group>"; };
+		C27D8807EF364A47981D6183 /* Pods-PingPongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongUITests/Pods-PingPongUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D022AE332CF19C238F960C64 /* Pods-PingPongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongTests/Pods-PingPongTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFD61B17F3E3DD0D88CA1DD2 /* Pods_PingPong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingPong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E2D10C20BCAAE800FC7FBC /* PingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E2D10F20BCAAE800FC7FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1E2D11120BCAAE800FC7FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1E2D11420BCAAE800FC7FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1E2D11620BCAAEA00FC7FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1E2D11920BCAAEA00FC7FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1E2D11B20BCAAEA00FC7FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E2D12020BCAAEA00FC7FBC /* PingPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E2D12420BCAAEA00FC7FBC /* PingPongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongTests.swift; sourceTree = "<group>"; };
+		F1E2D12620BCAAEA00FC7FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E2D12B20BCAAEA00FC7FBC /* PingPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E2D12F20BCAAEA00FC7FBC /* PingPongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongUITests.swift; sourceTree = "<group>"; };
+		F1E2D13120BCAAEA00FC7FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E2D14320BCEA7100FC7FBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1E2D14520BD793D00FC7FBC /* example.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = example.scnassets; sourceTree = "<group>"; };
+		F1E2D14B20BDA7BD00FC7FBC /* customAssets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = customAssets.scnassets; sourceTree = "<group>"; };
+		F1E2D14D20BDC8D200FC7FBC /* GARSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GARSessionManager.swift; sourceTree = "<group>"; };
+		F8443AB7EA8523F355CAF236 /* Pods_PingPongUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingPongUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E2D10920BCAAE800FC7FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37687A7CCEA555D6F3DC7BA0 /* Pods_PingPong.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E2D11D20BCAAEA00FC7FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4694B3F44A5E8ADAFAA0BFC /* Pods_PingPongTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E2D12820BCAAEA00FC7FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45229805A42452FD6A96DF87 /* Pods_PingPongUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE9CB42FF8A934AE3106F8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F735C7A25A1D0B4F721CB70 /* Pods-PingPong.debug.xcconfig */,
+				B5A1FF867D56B60A593799F1 /* Pods-PingPong.release.xcconfig */,
+				9DDB5DA24CB5F706521AF497 /* Pods-PingPongTests.debug.xcconfig */,
+				D022AE332CF19C238F960C64 /* Pods-PingPongTests.release.xcconfig */,
+				C27D8807EF364A47981D6183 /* Pods-PingPongUITests.debug.xcconfig */,
+				6F6D939550B3CBDF87A6CBC1 /* Pods-PingPongUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BCB4F68D955079AF9D172B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD61B17F3E3DD0D88CA1DD2 /* Pods_PingPong.framework */,
+				1F5BD742114514082A2B0CE2 /* Pods_PingPongTests.framework */,
+				F8443AB7EA8523F355CAF236 /* Pods_PingPongUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E2D10320BCAAE800FC7FBC = {
+			isa = PBXGroup;
+			children = (
+				F1E2D10E20BCAAE800FC7FBC /* PingPong */,
+				F1E2D12320BCAAEA00FC7FBC /* PingPongTests */,
+				F1E2D12E20BCAAEA00FC7FBC /* PingPongUITests */,
+				F1E2D10D20BCAAE800FC7FBC /* Products */,
+				4EE9CB42FF8A934AE3106F8F /* Pods */,
+				8BCB4F68D955079AF9D172B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E2D10D20BCAAE800FC7FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2D10C20BCAAE800FC7FBC /* PingPong.app */,
+				F1E2D12020BCAAEA00FC7FBC /* PingPongTests.xctest */,
+				F1E2D12B20BCAAEA00FC7FBC /* PingPongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E2D10E20BCAAE800FC7FBC /* PingPong */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2D14520BD793D00FC7FBC /* example.scnassets */,
+				F1E2D10F20BCAAE800FC7FBC /* AppDelegate.swift */,
+				F1E2D11120BCAAE800FC7FBC /* ViewController.swift */,
+				F1E2D14D20BDC8D200FC7FBC /* GARSessionManager.swift */,
+				F1E2D11320BCAAE800FC7FBC /* Main.storyboard */,
+				F1E2D11620BCAAEA00FC7FBC /* Assets.xcassets */,
+				F1E2D11820BCAAEA00FC7FBC /* LaunchScreen.storyboard */,
+				F1E2D14320BCEA7100FC7FBC /* GoogleService-Info.plist */,
+				F1E2D11B20BCAAEA00FC7FBC /* Info.plist */,
+				F1E2D14B20BDA7BD00FC7FBC /* customAssets.scnassets */,
+			);
+			path = PingPong;
+			sourceTree = "<group>";
+		};
+		F1E2D12320BCAAEA00FC7FBC /* PingPongTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2D12420BCAAEA00FC7FBC /* PingPongTests.swift */,
+				F1E2D12620BCAAEA00FC7FBC /* Info.plist */,
+			);
+			path = PingPongTests;
+			sourceTree = "<group>";
+		};
+		F1E2D12E20BCAAEA00FC7FBC /* PingPongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2D12F20BCAAEA00FC7FBC /* PingPongUITests.swift */,
+				F1E2D13120BCAAEA00FC7FBC /* Info.plist */,
+			);
+			path = PingPongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E2D10B20BCAAE800FC7FBC /* PingPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E2D13420BCAAEA00FC7FBC /* Build configuration list for PBXNativeTarget "PingPong" */;
+			buildPhases = (
+				AFDE068F3786391CCC68FE0C /* [CP] Check Pods Manifest.lock */,
+				F1E2D10820BCAAE800FC7FBC /* Sources */,
+				F1E2D10920BCAAE800FC7FBC /* Frameworks */,
+				F1E2D10A20BCAAE800FC7FBC /* Resources */,
+				78EA30C10B70B79B02ECD4B6 /* [CP] Embed Pods Frameworks */,
+				F93CFA04448E5815DDBBEC16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingPong;
+			productName = PingPong;
+			productReference = F1E2D10C20BCAAE800FC7FBC /* PingPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1E2D11F20BCAAEA00FC7FBC /* PingPongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E2D13720BCAAEA00FC7FBC /* Build configuration list for PBXNativeTarget "PingPongTests" */;
+			buildPhases = (
+				E1F4405DF9FFFB696F0B2465 /* [CP] Check Pods Manifest.lock */,
+				F1E2D11C20BCAAEA00FC7FBC /* Sources */,
+				F1E2D11D20BCAAEA00FC7FBC /* Frameworks */,
+				F1E2D11E20BCAAEA00FC7FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E2D12220BCAAEA00FC7FBC /* PBXTargetDependency */,
+			);
+			name = PingPongTests;
+			productName = PingPongTests;
+			productReference = F1E2D12020BCAAEA00FC7FBC /* PingPongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1E2D12A20BCAAEA00FC7FBC /* PingPongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E2D13A20BCAAEA00FC7FBC /* Build configuration list for PBXNativeTarget "PingPongUITests" */;
+			buildPhases = (
+				667D0E54AFD9406E7EB3E23C /* [CP] Check Pods Manifest.lock */,
+				F1E2D12720BCAAEA00FC7FBC /* Sources */,
+				F1E2D12820BCAAEA00FC7FBC /* Frameworks */,
+				F1E2D12920BCAAEA00FC7FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E2D12D20BCAAEA00FC7FBC /* PBXTargetDependency */,
+			);
+			name = PingPongUITests;
+			productName = PingPongUITests;
+			productReference = F1E2D12B20BCAAEA00FC7FBC /* PingPongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E2D10420BCAAE800FC7FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Raman Singh";
+				TargetAttributes = {
+					F1E2D10B20BCAAE800FC7FBC = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					F1E2D11F20BCAAEA00FC7FBC = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F1E2D10B20BCAAE800FC7FBC;
+					};
+					F1E2D12A20BCAAEA00FC7FBC = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F1E2D10B20BCAAE800FC7FBC;
+					};
+				};
+			};
+			buildConfigurationList = F1E2D10720BCAAE800FC7FBC /* Build configuration list for PBXProject "PingPong" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1E2D10320BCAAE800FC7FBC;
+			productRefGroup = F1E2D10D20BCAAE800FC7FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E2D10B20BCAAE800FC7FBC /* PingPong */,
+				F1E2D11F20BCAAEA00FC7FBC /* PingPongTests */,
+				F1E2D12A20BCAAEA00FC7FBC /* PingPongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E2D10A20BCAAE800FC7FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E2D14420BCEA7100FC7FBC /* GoogleService-Info.plist in Resources */,
+				F1E2D11A20BCAAEA00FC7FBC /* LaunchScreen.storyboard in Resources */,
+				F1E2D14620BD793D00FC7FBC /* example.scnassets in Resources */,
+				F1E2D14C20BDA7BD00FC7FBC /* customAssets.scnassets in Resources */,
+				F1E2D11720BCAAEA00FC7FBC /* Assets.xcassets in Resources */,
+				F1E2D11520BCAAE800FC7FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E2D11E20BCAAEA00FC7FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E2D12920BCAAEA00FC7FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		667D0E54AFD9406E7EB3E23C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PingPongUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78EA30C10B70B79B02ECD4B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PingPong/Pods-PingPong-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPong/Pods-PingPong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDE068F3786391CCC68FE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PingPong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F4405DF9FFFB696F0B2465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PingPongTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93CFA04448E5815DDBBEC16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PingPong/Pods-PingPong-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ARCore/ARCoreResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ARCoreResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPong/Pods-PingPong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E2D10820BCAAE800FC7FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E2D11220BCAAE800FC7FBC /* ViewController.swift in Sources */,
+				F1E2D11020BCAAE800FC7FBC /* AppDelegate.swift in Sources */,
+				F1E2D14E20BDC8D200FC7FBC /* GARSessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E2D11C20BCAAEA00FC7FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E2D12520BCAAEA00FC7FBC /* PingPongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E2D12720BCAAEA00FC7FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E2D13020BCAAEA00FC7FBC /* PingPongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1E2D12220BCAAEA00FC7FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E2D10B20BCAAE800FC7FBC /* PingPong */;
+			targetProxy = F1E2D12120BCAAEA00FC7FBC /* PBXContainerItemProxy */;
+		};
+		F1E2D12D20BCAAEA00FC7FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E2D10B20BCAAE800FC7FBC /* PingPong */;
+			targetProxy = F1E2D12C20BCAAEA00FC7FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1E2D11320BCAAE800FC7FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E2D11420BCAAE800FC7FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1E2D11820BCAAEA00FC7FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E2D11920BCAAEA00FC7FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1E2D13220BCAAEA00FC7FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1E2D13320BCAAEA00FC7FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E2D13520BCAAEA00FC7FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F735C7A25A1D0B4F721CB70 /* Pods-PingPong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE52HE9BWK;
+				INFOPLIST_FILE = PingPong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.arcore.CloudAnchorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1E2D13620BCAAEA00FC7FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A1FF867D56B60A593799F1 /* Pods-PingPong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE52HE9BWK;
+				INFOPLIST_FILE = PingPong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.arcore.CloudAnchorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1E2D13820BCAAEA00FC7FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDB5DA24CB5F706521AF497 /* Pods-PingPongTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE52HE9BWK;
+				INFOPLIST_FILE = PingPongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.PingPongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingPong.app/PingPong";
+			};
+			name = Debug;
+		};
+		F1E2D13920BCAAEA00FC7FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D022AE332CF19C238F960C64 /* Pods-PingPongTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE52HE9BWK;
+				INFOPLIST_FILE = PingPongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.PingPongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingPong.app/PingPong";
+			};
+			name = Release;
+		};
+		F1E2D13B20BCAAEA00FC7FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27D8807EF364A47981D6183 /* Pods-PingPongUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE52HE9BWK;
+				INFOPLIST_FILE = PingPongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.PingPongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PingPong;
+			};
+			name = Debug;
+		};
+		F1E2D13C20BCAAEA00FC7FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6D939550B3CBDF87A6CBC1 /* Pods-PingPongUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE52HE9BWK;
+				INFOPLIST_FILE = PingPongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singh4282.PingPongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PingPong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E2D10720BCAAE800FC7FBC /* Build configuration list for PBXProject "PingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E2D13220BCAAEA00FC7FBC /* Debug */,
+				F1E2D13320BCAAEA00FC7FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E2D13420BCAAEA00FC7FBC /* Build configuration list for PBXNativeTarget "PingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E2D13520BCAAEA00FC7FBC /* Debug */,
+				F1E2D13620BCAAEA00FC7FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E2D13720BCAAEA00FC7FBC /* Build configuration list for PBXNativeTarget "PingPongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E2D13820BCAAEA00FC7FBC /* Debug */,
+				F1E2D13920BCAAEA00FC7FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E2D13A20BCAAEA00FC7FBC /* Build configuration list for PBXNativeTarget "PingPongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E2D13B20BCAAEA00FC7FBC /* Debug */,
+				F1E2D13C20BCAAEA00FC7FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E2D10420BCAAE800FC7FBC /* Project object */;
+}

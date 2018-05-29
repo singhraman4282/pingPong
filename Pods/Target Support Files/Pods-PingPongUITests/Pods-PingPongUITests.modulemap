@@ -1,0 +1,6 @@
+framework module Pods_PingPongUITests {
+  umbrella header "Pods-PingPongUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
